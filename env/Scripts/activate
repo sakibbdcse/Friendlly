@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="D:\WorkPlace\courses\Creative IT\Intership\env"
+VIRTUAL_ENV="E:\PYTHON\group project\friendlly_v2\Friendlly\env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
