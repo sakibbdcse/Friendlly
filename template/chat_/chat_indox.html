@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ?⚠️Mast have parts of files start -->
+    <!-- !Fav-icon  -->
+    <link rel="shortcut icon" href="./Icon/fav-icon.png" type="image/x-icon">
+    <!-- !Daisy UI & Tailwind  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.2/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- !vanilla CSS  -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- !Icon  -->
+    <script src="https://kit.fontawesome.com/9538e475ca.js" crossorigin="anonymous"></script>
+    <!-- ?⚠️Mast have parts of files end -->
+    <title>Chat inbox</title>
+</head>
+<body class="Background_color p-[30px]">
+    <div class="fixed  top-0 left-0 right-0 p-[30px] pb-0 bg-[#70CBC9]">
+        <header class="flex justify-between mb-3">
+            <h1 class="Font_Allan text-white text-3xl">Friendlly</h1>
+            <div class="avatar">
+                <div class="w-[30px] rounded-full">
+                    <a href="./user_profile.html"><img src="https://i.pinimg.com/564x/7c/d8/57/7cd85777d7cfa273e026935f59c29059.jpg" /></a>
+                </div>
+              </div>
+        </header>
+        <nav class="">
+            <div class="w-full">
+                <div class="bg-[#a4dcda7a] mx-[-30px] px-[30px] py-3 mb-5">
+                    <div class="flex justify-between items-center">
+                        <a href="./home_feed.html"><i class="text-2xl ms-6 text-white fa-solid fa-house"></i></a>
+                        <a href="./Friend_request.html"><i class="text-2xl ms-6 text-white fa-solid fa-users"></i></a>
+                        <a href="./Chat_list.html"><i class="text-2xl ms-6 text-white fa-solid fa-message"></i></a>
+                        <div class="flex justify-end">
+                            <input type="email" placeholder="search" class="input input-bordered bg-transparent border-2 border-white w-8/12 md:w-auto lg:w-11/12 placeholder:text-white inline" />
+                            <button class="btn bg-[#0A9FBF] hover:bg-[#0a677c] border-0 Font_Inter text-white px-4 uppercase inline ms-1"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </nav>
+    </div>
+    <main class="mt-44">
+        <div class="bg-[#A9DCD8] rounded-t-lg  mx-[-25px] h-[687px]">
+            <div class="flex items-center bg-white  px-[25px] py-3 rounded-t-lg">
+                <div class="avatar static">
+                    <div class="w-16 rounded-full">
+                      <img src="https://i.pinimg.com/236x/ad/e2/60/ade260432ed4731bc4cb494e10aef8b0.jpg" />
+                    </div>
+                  </div>
+                  <p class="Font_Inter font-bold text-3xl ms-3">Shinnosuke</p>
+            </div>
+            <div>
+                <div class="flex justify-end">
+                    <p class="Font_Inter text-white text-right bg-[#7C82FF]  px-3 mt-4 mb-8 w-52 py-3 rounded-l-lg text-xs">Hey there, I received an email from your company about a promotion. Can you give me </p>
+                </div>
+                <div class="flex justify-start">
+                    <p class="Font_Inter text-white  bg-[#bec0da]  px-3 mt-4 mb-8 w-52 py-3 rounded-r-lg text-xs">Hey there, I received an email from your company about a promotion. Can you give me </p>
+                </div>
+            </div>
+        </div>
+        <div class="flex bg-white mx-[-25px] py-2 rounded-b-lg px-2">
+            <input type="email" placeholder="Aa" class="input input-bordered bg-transparent border-2 border-gray-400 w-full placeholder:text-gray-400" />
+            <button class="btn bg-[#0A9FBF] hover:bg-[#0a677c] border-0 Font_Inter text-white px-10 uppercase ms-2">Send</button>
+        </div>
+    </main>
+</body>
+</html>
